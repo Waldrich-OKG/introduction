@@ -1,0 +1,44 @@
+body{
+    /* background: rgb(163, 157, 150); */
+    margin: 0;
+}
+.right-link{
+    /* float: right; */
+ position: relative;
+ left: 60%;
+
+}
+nav{
+    background: rgb(171, 171, 171);
+    padding: 20px;
+    display: flex;
+   top: 0;
+
+    width: 100%;
+    align-items:center;
+    border-bottom: 1px solid rgb(172, 166, 131);
+}
+.right-link a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+}
+.brand{
+    font-size: 36px;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    width: 60%;
+}
+.col-1{
+    margin:10px;
+}
+.col-2{
+    margin: 10px;
+    width: 40%;
+
+}
